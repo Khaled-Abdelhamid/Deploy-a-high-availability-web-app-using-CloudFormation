@@ -6,9 +6,13 @@ This is a project focusing on building infrastructure as code in AWS
 ## Folders and files
 
 * infrastructure: The folder containing all cloudFormation configuration files to build the app.
-  * create.sh:  a shell script to easily create cloudFormation stack.
-  * update.sh:  a shell script to easily update cloudFormation stack.
-  * kill.sh:  a shell script to easily delete cloudFormation stack.
+  * create.sh:  A shell script to easily create cloudFormation stack.
+  * update.sh:  A shell script to easily update cloudFormation stack.
+  * kill.sh:  A shell script to easily delete cloudFormation stack.
+  * servers.yml: Configuration file for server resources.
+  * network.yml: Configuration file for network parameters.
+  * network-params.json: Parameters for network configuration file.
+  * server-parameters.json: Parameters for servers configuration file.
 * screenshots: The folder containing screen shots of stack creation events and outputs.
 
 ## stack creation steps:
